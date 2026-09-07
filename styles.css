@@ -862,14 +862,30 @@ a {
   justify-content: space-between;
 }
 
-.app-monogram {
+.app-monogram,
+.app-icon {
   display: grid;
   width: 68px;
   aspect-ratio: 1;
   place-items: center;
+  border-radius: 19px;
+}
+
+.app-icon {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 8px 24px rgba(13, 46, 39, 0.12);
+}
+
+.app-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app-monogram {
   color: white;
   background: var(--forest);
-  border-radius: 19px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.85rem;
   font-style: italic;
