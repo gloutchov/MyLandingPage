@@ -1,0 +1,10 @@
+# Local and generated files not required by the public landing page
+tmp/
+Thumbs.db
+.DS_Store
+
+# Heavy source captures; the site serves the optimized MP4 versions
+assets/tools/*.gif
+
+# Internal technical documentation is not part of the public site
+assets/tools/README-*.md
