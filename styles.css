@@ -680,6 +680,10 @@ a {
   align-items: center;
 }
 
+.tool-card-reverse {
+  grid-template-columns: minmax(320px, 0.8fr) minmax(0, 1.2fr);
+}
+
 .tool-card-reverse .tool-visual {
   order: 2;
 }
@@ -1119,6 +1123,10 @@ a {
     gap: 50px;
   }
 
+  .tool-card-reverse {
+    grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+  }
+
   .main-nav a {
     padding-inline: 10px;
   }
@@ -1257,6 +1265,10 @@ a {
   }
 
   .tool-card {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-card-reverse {
     grid-template-columns: 1fr;
   }
 
