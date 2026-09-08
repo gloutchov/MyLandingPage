@@ -216,12 +216,16 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: clamp(48px, 8vw, 110px);
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(48px, 7vh, 80px);
+  align-content: center;
   min-height: 100svh;
   padding-top: 132px;
   padding-bottom: 48px;
+}
+
+.hero-copy {
+  width: 100%;
 }
 
 .eyebrow,
@@ -260,8 +264,8 @@ a {
 }
 
 .hero h1 {
-  max-width: 760px;
-  font-size: clamp(4.6rem, 9.2vw, 8.9rem);
+  max-width: 1100px;
+  font-size: clamp(4.6rem, 11.5vw, 10.5rem);
 }
 
 .hero h1 em {
@@ -284,7 +288,7 @@ a {
 }
 
 .hero-lede {
-  max-width: 640px;
+  max-width: 880px;
   margin: 36px 0 0;
   color: var(--ink-soft);
   font-size: clamp(1.05rem, 1.5vw, 1.3rem);
@@ -350,80 +354,6 @@ a {
 .contact-email:hover span,
 .social-links a:hover span {
   transform: translate(3px, -3px);
-}
-
-.hero-portrait {
-  position: relative;
-}
-
-.portrait-frame {
-  position: relative;
-  width: 220px;
-  max-width: 220px;
-  margin-inline: auto;
-}
-
-.portrait-frame::before {
-  position: absolute;
-  inset: -18px -16px 20px 20px;
-  z-index: -1;
-  content: "";
-  border: 1px solid rgba(21, 63, 53, 0.25);
-  border-radius: 47% 47% 28px 28px;
-  transform: rotate(2deg);
-}
-
-.portrait-frame img {
-  width: 100%;
-  height: 236px;
-  aspect-ratio: auto;
-  object-fit: cover;
-  object-position: 50% 20%;
-  border-radius: 48% 48% 24px 24px;
-  box-shadow: var(--shadow);
-}
-
-.portrait-accent {
-  position: absolute;
-  top: -30px;
-  right: -26px;
-  z-index: -2;
-  width: 42%;
-  aspect-ratio: 1;
-  background: var(--mint);
-  border-radius: 50%;
-}
-
-.portrait-note {
-  position: absolute;
-  right: -42px;
-  bottom: 14px;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  max-width: 210px;
-  padding: 11px 14px;
-  background: rgba(255, 255, 255, 0.94);
-  border: 1px solid rgba(21, 37, 30, 0.1);
-  border-radius: var(--radius-sm);
-  box-shadow: 0 14px 44px rgba(21, 37, 30, 0.14);
-  font-size: 0.69rem;
-  line-height: 1.35;
-  backdrop-filter: blur(8px);
-}
-
-.portrait-note strong {
-  display: block;
-}
-
-.status-dot {
-  flex: 0 0 auto;
-  width: 10px;
-  height: 10px;
-  background: #31a76f;
-  border: 3px solid #d7f4e4;
-  border-radius: 50%;
-  box-sizing: content-box;
 }
 
 .hero-stats {
@@ -1105,16 +1035,12 @@ a {
   }
 
   .hero {
-    grid-template-columns: 1fr 0.72fr;
     gap: 56px;
   }
 
   .hero h1 {
-    font-size: clamp(4.1rem, 10vw, 6.4rem);
-  }
-
-  .portrait-note {
-    right: -12px;
+    max-width: 900px;
+    font-size: clamp(4.1rem, 12vw, 7.4rem);
   }
 
   .journey-layout,
@@ -1227,24 +1153,8 @@ a {
     order: 1;
   }
 
-  .hero-portrait {
-    order: 2;
-    max-width: 500px;
-    margin-top: 18px;
-  }
-
-  .portrait-frame {
-    width: 220px;
-    max-width: 220px;
-  }
-
-  .portrait-note {
-    right: -12px;
-    bottom: 12px;
-  }
-
   .hero-stats {
-    order: 3;
+    order: 2;
   }
 
   .hero-stats div {
@@ -1341,29 +1251,6 @@ a {
 
   .hero-stats dt {
     font-size: 2.6rem;
-  }
-
-  .portrait-frame::before {
-    inset: -10px -6px 14px 12px;
-  }
-
-  .portrait-accent {
-    right: -8px;
-  }
-
-  .portrait-note {
-    right: 8px;
-    bottom: 10px;
-    max-width: 194px;
-  }
-
-  .portrait-frame {
-    width: 190px;
-    max-width: 190px;
-  }
-
-  .portrait-frame img {
-    height: 204px;
   }
 
   .section-intro h2,
