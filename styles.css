@@ -168,15 +168,12 @@ a {
 }
 
 .brand-mark {
-  display: grid;
+  display: block;
+  flex: 0 0 auto;
   width: 43px;
-  aspect-ratio: 1;
-  place-items: center;
-  color: var(--paper);
-  background: var(--forest);
-  border-radius: 50%;
-  font-size: 0.76rem;
-  letter-spacing: -0.05em;
+  height: 43px;
+  object-fit: cover;
+  border-radius: 9px;
 }
 
 .main-nav {
@@ -965,7 +962,7 @@ a {
   display: grid;
   gap: 9px;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.65rem, 3vw, 3rem);
+  font-size: clamp(1.5rem, 2.2vw, 2.2rem);
   line-height: 1.25;
 }
 
@@ -976,6 +973,10 @@ a {
 .personal-notes span {
   color: var(--forest-deep);
   font-style: italic;
+}
+
+.personal-note-3d {
+  white-space: nowrap;
 }
 
 .contact {
@@ -1095,6 +1096,10 @@ a {
 }
 
 @media (max-width: 980px) {
+  .personal-note-3d {
+    white-space: normal;
+  }
+
   .cad-logos {
     grid-template-columns: repeat(3, 1fr);
   }
