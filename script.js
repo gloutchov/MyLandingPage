@@ -4,11 +4,25 @@ const menuToggle = document.querySelector("[data-menu-toggle]");
 const progressBar = document.querySelector(".scroll-progress span");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+const getText = (key, fallback) => window.siteI18n?.translate(key) ?? fallback;
+
+const updateMenuLabel = () => {
+  if (!menuToggle) return;
+  const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+  const labelKey = isOpen ? "nav.closeMenu" : "nav.openMenu";
+  const fallback = isOpen ? "Chiudi il menu" : "Apri il menu";
+  const label = menuToggle.querySelector(".sr-only");
+  if (label) {
+    label.dataset.i18n = labelKey;
+    label.textContent = getText(labelKey, fallback);
+  }
+};
+
 const closeMenu = () => {
   if (!menu || !menuToggle) return;
   menu.classList.remove("is-open");
   menuToggle.setAttribute("aria-expanded", "false");
-  menuToggle.querySelector(".sr-only").textContent = "Apri il menu";
+  updateMenuLabel();
 };
 
 if (menu && menuToggle) {
@@ -16,7 +30,7 @@ if (menu && menuToggle) {
     const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
     menu.classList.toggle("is-open", !isOpen);
     menuToggle.setAttribute("aria-expanded", String(!isOpen));
-    menuToggle.querySelector(".sr-only").textContent = isOpen ? "Apri il menu" : "Chiudi il menu";
+    updateMenuLabel();
   });
 
   menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
@@ -24,6 +38,8 @@ if (menu && menuToggle) {
     if (event.key === "Escape") closeMenu();
   });
 }
+
+window.addEventListener("site-language-change", updateMenuLabel);
 
 const updateScrollUI = () => {
   const scrollTop = window.scrollY;

@@ -2,9 +2,15 @@
 tmp/
 Thumbs.db
 .DS_Store
+STARTUP_PREFERENCES.md
 
-# Heavy source captures; the site serves the optimized MP4 versions
+# Original captures; the public site serves only the blurred MP4 versions
 assets/tools/*.gif
+assets/tools/processdesigner.mp4
+assets/tools/ipmeter.mp4
+assets/tools/schedaistruzioniprodotto.mp4
+assets/apps/*.gif
+assets/apps/contami.mp4
 
 # Internal technical documentation is not part of the public site
 assets/tools/README-*.md
