@@ -39,7 +39,7 @@ window.siteTranslations = Object.freeze({
     "stats.experience": "anni tra elettronica e industria",
     "stats.tools": "tool per i processi aziendali",
     "stats.projects": "progetti personali online",
-    "stats.repositories": "repository GitHub<br />12 pubbliche · 6 private",
+    "stats.repositories": "repository GitHub<br />12 pubbliche · 0 private",
     "profile.kicker": "01 · In breve",
     "profile.title": "Una competenza che connette.",
     "profile.statement":
@@ -150,7 +150,7 @@ window.siteTranslations = Object.freeze({
     "stats.experience": "years across electronics and industry",
     "stats.tools": "tools for business processes",
     "stats.projects": "personal projects online",
-    "stats.repositories": "GitHub repositories<br />12 public · 6 private",
+    "stats.repositories": "GitHub repositories<br />12 public · 0 private",
     "profile.kicker": "01 · At a glance",
     "profile.title": "Expertise that connects.",
     "profile.statement":
