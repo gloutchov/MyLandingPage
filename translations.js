@@ -18,6 +18,9 @@ window.siteTranslations = Object.freeze({
     "a11y.productInstructionsDemo":
       "Dimostrazione dell'interfaccia di Scheda Istruzioni Prodotto",
     "a11y.productInstructionsFeatures": "Funzioni Scheda Istruzioni Prodotto",
+    "a11y.maintenanceScheduleDemo":
+      "Dimostrazione dell'interfaccia di Scadenziario Manutenzioni",
+    "a11y.maintenanceScheduleFeatures": "Funzioni Scadenziario Manutenzioni",
     "a11y.onlineProfiles": "Profili online",
     "nav.openMenu": "Apri il menu",
     "nav.closeMenu": "Chiudi il menu",
@@ -76,6 +79,14 @@ window.siteTranslations = Object.freeze({
       "Un punto di accesso unico alle informazioni indispensabili per avviare la produzione. Ricerca prodotto e revisione nei dati PLM aggiornati ogni notte e genera una scheda completa, stampabile o esportabile in PDF.",
     "tools.productSearch": "Ricerca prodotto",
     "tools.updatedData": "Dati aggiornati",
+    "tools.maintenanceArea": "Manutenzione",
+    "tools.productionInternal": "Produzione · Internal",
+    "tools.maintenanceScheduleTitle": "Scadenziario Manutenzioni",
+    "tools.maintenanceScheduleText":
+      "Un'app per gestire le attività di manutenzione del reparto produttivo, pianificare gli interventi e tenere sotto controllo le scadenze. Le notifiche aiutano a non perdere le attività programmate.",
+    "tools.maintenanceTasks": "Attività di manutenzione",
+    "tools.deadlines": "Scadenze",
+    "tools.notifications": "Notifiche",
     "lab.kicker": "04 · Il laboratorio personale",
     "lab.title": "Curiosità, codice<br />e intelligenza artificiale.",
     "lab.intro":
@@ -119,6 +130,8 @@ window.siteTranslations = Object.freeze({
     "a11y.ipMeterFeatures": "IP Meter features",
     "a11y.productInstructionsDemo": "Product Instructions interface demonstration",
     "a11y.productInstructionsFeatures": "Product Instructions features",
+    "a11y.maintenanceScheduleDemo": "Scadenziario Manutenzioni interface demonstration",
+    "a11y.maintenanceScheduleFeatures": "Scadenziario Manutenzioni features",
     "a11y.onlineProfiles": "Online profiles",
     "nav.openMenu": "Open menu",
     "nav.closeMenu": "Close menu",
@@ -176,6 +189,14 @@ window.siteTranslations = Object.freeze({
       "A single access point for the information needed to start production. It searches products and revisions in PLM data refreshed nightly and generates a complete sheet that can be printed or exported as PDF.",
     "tools.productSearch": "Product search",
     "tools.updatedData": "Updated data",
+    "tools.maintenanceArea": "Maintenance",
+    "tools.productionInternal": "Production · Internal",
+    "tools.maintenanceScheduleTitle": "Scadenziario Manutenzioni",
+    "tools.maintenanceScheduleText":
+      "An app for managing maintenance activities on the production floor, scheduling work and keeping deadlines under control. Notifications help ensure that planned activities are not missed.",
+    "tools.maintenanceTasks": "Maintenance activities",
+    "tools.deadlines": "Deadlines",
+    "tools.notifications": "Notifications",
     "lab.kicker": "04 · Personal lab",
     "lab.title": "Curiosity, code<br />and artificial intelligence.",
     "lab.intro":
