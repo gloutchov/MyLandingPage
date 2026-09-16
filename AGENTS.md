@@ -15,6 +15,7 @@ esterni.
 - `theme.js`: rilevamento, selezione e persistenza del tema.
 - `script.js`: navigazione, reveal, indicatore di scorrimento e gestione dei video.
 - `assets/`: immagini e media effettivamente pubblicabili.
+- `CNAME`: configurazione del dominio personalizzato `glaucosilvestri.it`.
 - `README.md`, `SECURITY_MODEL.md`, `LICENSE`: documentazione e condizioni d'uso.
 
 ## Regole di modifica
@@ -28,7 +29,7 @@ esterni.
 - Ogni testo visibile aggiunto in `index.html` deve avere una chiave corrispondente e sincronizzata
   in entrambe le lingue di `translations.js`.
 - Ogni nuovo colore o componente deve risultare leggibile in entrambi i temi.
-- Usare percorsi relativi, compatibili con la pubblicazione nella sottocartella GitHub Pages.
+- Usare percorsi relativi, compatibili con il dominio personalizzato e la pubblicazione GitHub Pages.
 - Aggiornare il parametro di cache-busting degli asset modificati in `index.html`.
 
 ## Sicurezza e contenuti pubblici
