@@ -769,6 +769,27 @@ a {
   color: var(--ink-soft);
 }
 
+.codex-note {
+  position: relative;
+  z-index: 1;
+  max-width: 480px;
+  padding-inline-start: 15px;
+  border-inline-start: 2px solid currentcolor;
+  font-size: 0.82rem;
+  font-style: italic;
+  line-height: 1.5;
+  opacity: 0.68;
+}
+
+.tool-copy > .codex-note {
+  margin-top: 22px;
+  color: var(--ink);
+}
+
+.tool-copy > .codex-note + .tag-list {
+  margin-top: 22px;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -979,6 +1000,10 @@ a {
   margin: 0;
   line-height: 1.55;
   opacity: 0.74;
+}
+
+.app-card > .codex-note {
+  margin: 24px 0 0;
 }
 
 .app-cta {

@@ -87,6 +87,8 @@ window.siteTranslations = Object.freeze({
     "tools.maintenanceTasks": "Attività di manutenzione",
     "tools.deadlines": "Scadenze",
     "tools.notifications": "Notifiche",
+    "common.codexNote":
+      "Dall'idea al codice: un progetto sviluppato in vibe coding insieme a Codex.",
     "lab.kicker": "04 · Il laboratorio personale",
     "lab.title": "Curiosità, codice<br />e intelligenza artificiale.",
     "lab.intro":
@@ -197,6 +199,8 @@ window.siteTranslations = Object.freeze({
     "tools.maintenanceTasks": "Maintenance activities",
     "tools.deadlines": "Deadlines",
     "tools.notifications": "Notifications",
+    "common.codexNote":
+      "From idea to code: a project developed through vibe coding with Codex.",
     "lab.kicker": "04 · Personal lab",
     "lab.title": "Curiosity, code<br />and artificial intelligence.",
     "lab.intro":
