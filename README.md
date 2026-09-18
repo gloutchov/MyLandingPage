@@ -76,7 +76,7 @@ with personal AI-assisted projects.
 - Italian and English content with automatic detection and manual selection;
 - system-aware light/dark theme with a persistent override;
 - keyboard-accessible navigation and `prefers-reduced-motion` support;
-- optimised, blurred video demonstrations of professional tools and personal projects;
+- optimised video demonstrations, blurred for professional tools and clear for personal projects;
 - no dependencies, build step, analytics, authentication or external runtime services.
 
 ### Local preview

@@ -72,7 +72,10 @@ action.
 - Referrer policy set to `strict-origin-when-cross-origin`.
 - External links opened with `rel="noreferrer"`.
 - No secrets or tokens in client code and no remote runtime dependencies.
-- Demonstration videos are published only as blurred, silent versions.
+- Professional-tool demonstrations are published only as blurred, silent versions.
+- Personal-project demonstrations may be published in clear form when they contain only public,
+  non-sensitive demo data already shown on the respective project sites; portfolio copies remain
+  silent.
 - `prefers-reduced-motion` is respected and videos are paused when appropriate.
 
 ### Residual limitations
