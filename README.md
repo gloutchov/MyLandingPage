@@ -9,7 +9,7 @@ percorso dall'elettronica e dal PCB design al process engineering, alla transizi
 progetti personali sviluppati con l'AI.
 
 **Stato:** attivo<br>
-**Sito:** [gloutchov.github.io/mylandingpage](https://gloutchov.github.io/mylandingpage/)
+**Sito:** [glaucosilvestri.it](https://glaucosilvestri.it)
 
 ### Funzionalità
 
@@ -44,15 +44,17 @@ Aprire quindi `http://localhost:8000`.
 - `theme.js`: selezione e persistenza del tema;
 - `script.js`: menu, navigazione, animazioni e gestione video;
 - `assets/`: immagini, curriculum e media pubblicabili;
+- `CNAME`: configurazione del dominio personalizzato `glaucosilvestri.it`;
 - `AGENTS.md`: regole operative per manutentori e agenti;
 - `SECURITY_MODEL.md`: modello di sicurezza e privacy.
 
 ### Pubblicazione
 
-GitHub Pages pubblica direttamente la root del branch `main`. Tutti i percorsi sono relativi e non
-è richiesto alcun passaggio di build. Il sito pubblico include soltanto derivati MP4 ottimizzati;
-le demo dei tool professionali hanno la sfocatura incorporata, mentre le catture sorgente non
-devono essere aggiunte al repository.
+GitHub Pages pubblica direttamente la root del branch `main` sul dominio personalizzato
+`glaucosilvestri.it`, configurato tramite `CNAME`. Tutti i percorsi sono relativi e non è richiesto
+alcun passaggio di build. Il sito pubblico include soltanto derivati MP4 ottimizzati; le demo dei
+tool professionali hanno la sfocatura incorporata, mentre le catture sorgente non devono essere
+aggiunte al repository.
 
 ### Privacy e sicurezza
 
@@ -73,7 +75,7 @@ career spanning electronics and PCB design, process engineering and digital tran
 with personal AI-assisted projects.
 
 **Status:** active<br>
-**Website:** [gloutchov.github.io/mylandingpage](https://gloutchov.github.io/mylandingpage/)
+**Website:** [glaucosilvestri.it](https://glaucosilvestri.it)
 
 ### Features
 
@@ -81,7 +83,7 @@ with personal AI-assisted projects.
 - Italian and English content with automatic detection and manual selection;
 - system-aware light/dark theme with a persistent override;
 - keyboard-accessible navigation and `prefers-reduced-motion` support;
-- optimised demonstrations of personal projects and blurred videos of professional tools;
+- optimised video demonstrations, blurred for professional tools and clear for personal projects;
 - no dependencies, build step, analytics, authentication or external runtime services.
 
 Featured personal projects include
@@ -107,14 +109,16 @@ Then open `http://localhost:8000`.
 - `theme.js`: theme selection and persistence;
 - `script.js`: menu, navigation, animations and video handling;
 - `assets/`: publishable images, résumé and media;
+- `CNAME`: custom-domain configuration for `glaucosilvestri.it`;
 - `AGENTS.md`: operational rules for maintainers and agents;
 - `SECURITY_MODEL.md`: security and privacy model.
 
 ### Publishing
 
-GitHub Pages publishes the root of the `main` branch directly. All paths are relative and no build
-step is required. The public site contains only optimised MP4 derivatives; professional-tool demos
-have blur baked into the files, while source captures must not be added to the repository.
+GitHub Pages publishes the root of the `main` branch directly at the `glaucosilvestri.it` custom
+domain, configured through `CNAME`. All paths are relative and no build step is required. The
+public site contains only optimised MP4 derivatives; professional-tool demos have blur baked into
+the files, while source captures must not be added to the repository.
 
 ### Privacy and security
 
