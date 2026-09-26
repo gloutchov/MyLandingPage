@@ -27,7 +27,8 @@ dei progetti causano una navigazione esterna soltanto dopo un'azione dell'utente
 - Referrer policy `strict-origin-when-cross-origin`.
 - Link esterni aperti con `rel="noreferrer"`.
 - Nessun segreto o token nel codice client; nessuna dipendenza runtime remota.
-- Video dimostrativi pubblicati soltanto in versioni sfocate e senza audio.
+- Video dei tool professionali pubblicati soltanto in versioni sfocate e senza audio; le demo di
+  app personali già pubbliche possono essere mostrate senza sfocatura dopo revisione del contenuto.
 - Rispetto di `prefers-reduced-motion`, con arresto dei video quando opportuno.
 
 ### Limiti residui
@@ -72,7 +73,8 @@ action.
 - Referrer policy set to `strict-origin-when-cross-origin`.
 - External links opened with `rel="noreferrer"`.
 - No secrets or tokens in client code and no remote runtime dependencies.
-- Demonstration videos are published only as blurred, silent versions.
+- Professional-tool videos are published only in blurred, silent versions; demonstrations of
+  already-public personal apps may be shown without blur after content review.
 - `prefers-reduced-motion` is respected and videos are paused when appropriate.
 
 ### Residual limitations

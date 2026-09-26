@@ -859,9 +859,20 @@ a {
   background: #e7e1ff;
 }
 
+.app-benchmark {
+  --card-accent: var(--blue);
+  background: #dce9f7;
+}
+
+.app-markdown {
+  --card-accent: var(--coral-bright);
+  background: #f3ead8;
+}
+
 .app-preview,
 .app-card-body,
-.app-cta {
+.app-cta,
+.app-links {
   position: relative;
   z-index: 1;
 }
@@ -988,6 +999,30 @@ a {
   border-bottom: 1px solid currentcolor;
   font-size: 0.8rem;
   font-weight: 800;
+}
+
+.app-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.app-links .app-cta {
+  margin-top: 0;
+}
+
+.app-repo-link {
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentcolor;
+  font-size: 0.8rem;
+  font-weight: 800;
+  opacity: 0.72;
+}
+
+.app-repo-link:hover {
+  opacity: 1;
 }
 
 .personal-notes {
@@ -1206,6 +1241,14 @@ html[data-theme="dark"] .app-drawing {
 
 html[data-theme="dark"] .app-skill {
   background: #29243c;
+}
+
+html[data-theme="dark"] .app-benchmark {
+  background: #172a3d;
+}
+
+html[data-theme="dark"] .app-markdown {
+  background: #352b20;
 }
 
 html[data-theme="dark"] .app-card {
@@ -1431,6 +1474,10 @@ html[data-theme="dark"] .menu-toggle span:not(.sr-only) {
 
   .tool-copy {
     max-width: 620px;
+  }
+
+  .tool-index {
+    right: -8px;
   }
 
   .app-card {

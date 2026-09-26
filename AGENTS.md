@@ -35,8 +35,10 @@ esterni.
 
 - Non committare segreti, token, documenti interni, log o dati aziendali riservati.
 - `STARTUP_PREFERENCES.md` è un riferimento locale e deve restare fuori da Git.
-- Non reintrodurre GIF o MP4 sorgente non sfocati. Il sito deve usare soltanto i file
-  `*-blurred.mp4` e i poster approvati.
+- Non reintrodurre GIF o catture sorgente dei tool professionali non sfocate. Le demo dei tool
+  interni devono usare soltanto i file `*-blurred.mp4` e i poster approvati. Le app personali già
+  pubbliche possono usare derivati MP4 non sfocati solo dopo conferma del proprietario e revisione
+  del contenuto; i file sorgente MOV devono restare ignorati da Git.
 - Prima di aggiungere CV, fotografie, schermate o loghi, verificare che siano destinati alla
   pubblicazione e coerenti con `SECURITY_MODEL.md`.
 - Le chiavi GitHub o altri segreti non devono mai essere usati dal browser per recuperare dati
