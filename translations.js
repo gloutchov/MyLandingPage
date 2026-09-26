@@ -39,7 +39,7 @@ window.siteTranslations = Object.freeze({
     "stats.experience": "anni tra elettronica e industria",
     "stats.tools": "tool per i processi aziendali",
     "stats.projects": "progetti personali online",
-    "stats.repositories": "repository GitHub<br />12 pubbliche · 0 private",
+    "stats.repositories": "repository GitHub<br />13 pubbliche · 0 private",
     "profile.kicker": "01 · In breve",
     "profile.title": "Una competenza che connette.",
     "profile.statement":
@@ -102,8 +102,18 @@ window.siteTranslations = Object.freeze({
       "Dal tratto all'immagine: un canvas con strumenti di disegno e layer che trasforma lo schizzo in un'immagine generata con l'AI.",
     "apps.skillTestText":
       "Un assessment bilingue per esplorare literacy, fluency, mindset e capacità operative nell'uso responsabile della GenAI.",
+    "apps.localAgentType": "Benchmark · AI locale · Coding agent",
+    "apps.localAgentText":
+      "Un benchmark personale, ripetibile e offline per confrontare modelli Ollama usati come coding agent, misurando qualità, completamento, velocità ed efficienza.",
+    "apps.markdownType": "Conversione · Web app · PDF",
+    "apps.markdownText":
+      "Un editor con anteprima affiancata che trasforma testo Markdown in PDF direttamente dal browser, con titolo e numerazione automatica delle pagine.",
+    "apps.openLocalAgent": "Apri LocalAgent Benchmark",
+    "apps.openMarkdown": "Apri Markdown2PDF",
     "apps.visitLanding": "Visita la landing page",
     "apps.tryAssessment": "Prova l'assessment",
+    "apps.openApp": "Apri la web app",
+    "apps.viewRepository": "Repository GitHub",
     "personal.label": "Quando non parlo di processi",
     "personal.write": "<span>Scrivo</span> narrativa dal 1991",
     "personal.observe": "<span>Osservo</span> attraverso fotografia e video",
@@ -152,7 +162,7 @@ window.siteTranslations = Object.freeze({
     "stats.experience": "years across electronics and industry",
     "stats.tools": "tools for business processes",
     "stats.projects": "personal projects online",
-    "stats.repositories": "GitHub repositories<br />12 public · 0 private",
+    "stats.repositories": "GitHub repositories<br />13 public · 0 private",
     "profile.kicker": "01 · At a glance",
     "profile.title": "Expertise that connects.",
     "profile.statement":
@@ -214,8 +224,18 @@ window.siteTranslations = Object.freeze({
       "From stroke to image: a canvas with drawing tools and layers that turns a sketch into an AI-generated image.",
     "apps.skillTestText":
       "A bilingual assessment exploring literacy, fluency, mindset and practical skills in the responsible use of GenAI.",
+    "apps.localAgentType": "Benchmark · Local AI · Coding agents",
+    "apps.localAgentText":
+      "A personal, repeatable and offline benchmark for comparing Ollama models used as coding agents, measuring quality, completion, speed and efficiency.",
+    "apps.markdownType": "Conversion · Web app · PDF",
+    "apps.markdownText":
+      "A side-by-side editor and preview that turns Markdown text into a PDF directly in the browser, with automatic document titles and page numbering.",
+    "apps.openLocalAgent": "Open LocalAgent Benchmark",
+    "apps.openMarkdown": "Open Markdown2PDF",
     "apps.visitLanding": "Visit the landing page",
     "apps.tryAssessment": "Try the assessment",
+    "apps.openApp": "Open the web app",
+    "apps.viewRepository": "GitHub repository",
     "personal.label": "When I'm not talking about processes",
     "personal.write": "<span>I write</span> fiction, since 1991",
     "personal.observe": "<span>I observe</span> through photography and video",

@@ -17,8 +17,14 @@ progetti personali sviluppati con l'AI.
 - contenuti in italiano e inglese, con rilevamento automatico e selezione manuale;
 - tema chiaro/scuro basato sul sistema, con override persistente;
 - navigazione accessibile da tastiera e supporto a `prefers-reduced-motion`;
-- demo video ottimizzate e sfocate dei tool professionali e dei progetti personali;
+- demo video ottimizzate dei progetti personali e demo sfocate dei tool professionali;
 - nessuna dipendenza, build, analytics, autenticazione o servizio runtime esterno.
+
+Tra i progetti personali presentati sono inclusi
+[LocalAgent Benchmark](https://localagentbenchmark.glaucosilvestri.it/), per confrontare in locale
+i modelli Ollama usati come coding agent, e
+[Markdown2PDF](https://markdown2pdf.glaucosilvestri.it/), per convertire documenti Markdown in PDF
+direttamente dal browser.
 
 ### Anteprima locale
 
@@ -46,8 +52,9 @@ Aprire quindi `http://localhost:8000`.
 
 GitHub Pages pubblica direttamente la root del branch `main` sul dominio personalizzato
 `glaucosilvestri.it`, configurato tramite `CNAME`. Tutti i percorsi sono relativi e non è richiesto
-alcun passaggio di build. Il sito pubblico include soltanto video MP4 con sfocatura incorporata;
-le catture sorgente non devono essere aggiunte al repository.
+alcun passaggio di build. Il sito pubblico include soltanto derivati MP4 ottimizzati; le demo dei
+tool professionali hanno la sfocatura incorporata, mentre le catture sorgente non devono essere
+aggiunte al repository.
 
 ### Privacy e sicurezza
 
@@ -79,6 +86,11 @@ with personal AI-assisted projects.
 - optimised video demonstrations, blurred for professional tools and clear for personal projects;
 - no dependencies, build step, analytics, authentication or external runtime services.
 
+Featured personal projects include
+[LocalAgent Benchmark](https://localagentbenchmark.glaucosilvestri.it/), for comparing Ollama models
+used locally as coding agents, and [Markdown2PDF](https://markdown2pdf.glaucosilvestri.it/), for
+converting Markdown documents to PDF directly in the browser.
+
 ### Local preview
 
 From PowerShell, in the project directory:
@@ -105,8 +117,8 @@ Then open `http://localhost:8000`.
 
 GitHub Pages publishes the root of the `main` branch directly at the `glaucosilvestri.it` custom
 domain, configured through `CNAME`. All paths are relative and no build step is required. The
-public site contains only MP4 videos with blur baked into the files; source captures must not be
-added to the repository.
+public site contains only optimised MP4 derivatives; professional-tool demos have blur baked into
+the files, while source captures must not be added to the repository.
 
 ### Privacy and security
 

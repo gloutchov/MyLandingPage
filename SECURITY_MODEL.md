@@ -27,7 +27,10 @@ dei progetti causano una navigazione esterna soltanto dopo un'azione dell'utente
 - Referrer policy `strict-origin-when-cross-origin`.
 - Link esterni aperti con `rel="noreferrer"`.
 - Nessun segreto o token nel codice client; nessuna dipendenza runtime remota.
-- Video dimostrativi pubblicati soltanto in versioni sfocate e senza audio.
+- Le demo dei tool professionali sono pubblicate soltanto in versioni sfocate e senza audio.
+- Le demo dei progetti personali possono essere pubblicate senza sfocatura quando contengono solo
+  dati dimostrativi pubblici, non sensibili e già mostrati nei rispettivi siti; le copie presenti
+  nel portfolio restano senza audio.
 - Rispetto di `prefers-reduced-motion`, con arresto dei video quando opportuno.
 
 ### Limiti residui
