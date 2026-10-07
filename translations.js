@@ -67,7 +67,7 @@ window.siteTranslations = Object.freeze({
     "processes.kicker": "03 · Il presente professionale",
     "processes.title": "Progettare il modo<br />in cui lavoriamo.",
     "processes.intro":
-      "Oggi, in Beghelli, studio le linee produttive e connetto R&D, Qualità, Collaudo e Produzione. I tool che sviluppo nascono dall'osservazione dei flussi reali: meno frammentazione, dati più accessibili, decisioni più rapide.",
+      "Oggi, in Beghelli, studio i processi produttivi, applico il metodo MTM-UAS e connetto R&D, Qualità, Collaudo e Produzione. I tool che sviluppo nascono dall'osservazione dei flussi reali: meno frammentazione, dati più accessibili, decisioni più rapide.",
     "tools.processDesignerText":
       "Un canvas visuale per modellare processi produttivi, collegare le fasi e calcolare tempi, saturazione, inattività e colli di bottiglia. Integra scenari operatore, istruzioni di montaggio digitali e report di processo.",
     "tools.visualCanvas": "Canvas visuale",
@@ -189,7 +189,7 @@ window.siteTranslations = Object.freeze({
     "processes.kicker": "03 · My work today",
     "processes.title": "Designing the way<br />we work.",
     "processes.intro":
-      "Today at Beghelli, I study production lines and connect R&D, Quality, Testing and Manufacturing. The tools I develop come from observing real workflows: less fragmentation, more accessible data and faster decisions.",
+      "Today at Beghelli, I study production processes, apply the MTM-UAS method and connect R&D, Quality, Testing and Manufacturing. The tools I develop come from observing real workflows: less fragmentation, more accessible data and faster decisions.",
     "tools.processDesignerText":
       "A visual canvas for modelling production processes, connecting stages and calculating time, utilisation, inactivity and bottlenecks. It includes operator scenarios, digital assembly instructions and process reports.",
     "tools.visualCanvas": "Visual canvas",
