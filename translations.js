@@ -1,5 +1,6 @@
 window.siteTranslations = Object.freeze({
   it: Object.freeze({
+    "skills.mtmUas": "MTM-UAS",
     "a11y.bpConverterDemo": "Dimostrazione dell'interfaccia di BPConverter",
     "a11y.bpConverterFeatures": "Funzioni BPConverter",
     "tools.bpConverterArea": "Assemblaggio SMT",
@@ -133,6 +134,7 @@ window.siteTranslations = Object.freeze({
     "footer.backToTop": "Torna su",
   }),
   en: Object.freeze({
+    "skills.mtmUas": "MTM-UAS",
     "a11y.bpConverterDemo": "BPConverter interface demonstration",
     "a11y.bpConverterFeatures": "BPConverter features",
     "tools.bpConverterArea": "SMT assembly",
