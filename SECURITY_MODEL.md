@@ -33,6 +33,9 @@ dei progetti causano una navigazione esterna soltanto dopo un'azione dell'utente
   nel portfolio restano senza audio.
 - Rispetto di `prefers-reduced-motion`, con arresto dei video quando opportuno.
 
+Le catture originali di BPConverter (MP4 e PNG) sono escluse da Git. La pagina usa soltanto
+un video e un poster con sfocatura incorporata; il video è privo di audio.
+
 ### Limiti residui
 
 - Tutti i file presenti nella cronologia Git pubblica devono essere considerati accessibili anche
@@ -80,6 +83,9 @@ action.
   non-sensitive demo data already shown on the respective project sites; portfolio copies remain
   silent.
 - `prefers-reduced-motion` is respected and videos are paused when appropriate.
+
+Original BPConverter captures (MP4 and PNG) are excluded from Git. The page uses only a video
+and poster with baked-in blur; the video contains no audio.
 
 ### Residual limitations
 

@@ -1,5 +1,13 @@
 window.siteTranslations = Object.freeze({
   it: Object.freeze({
+    "a11y.bpConverterDemo": "Dimostrazione dell'interfaccia di BPConverter",
+    "a11y.bpConverterFeatures": "Funzioni BPConverter",
+    "tools.bpConverterArea": "Assemblaggio SMT",
+    "tools.bpConverterTitle": "BPConverter",
+    "tools.bpConverterText": "Dal file pick & place al programma macchina: importa coordinate in qualunque formato e la distinta base (BOM), quindi genera un file compatibile con le macchine Fuji Aimex II e III. Gli offset sugli assi X e Y e sulla rotazione dei componenti permettono di adattare il posizionamento alle esigenze produttive.",
+    "tools.bpConverterImport": "Pick & place + BOM",
+    "tools.bpConverterOutput": "Fuji Aimex II / III",
+    "tools.bpConverterOffsets": "Offset X, Y e rotazione",
     "meta.title": "Glauco Silvestri — Processi, elettronica, AI",
     "meta.description":
       "Glauco Silvestri: dall'elettronica e dal PCB design al process engineering, alla transizione digitale e ai progetti sviluppati con l'AI.",
@@ -125,6 +133,14 @@ window.siteTranslations = Object.freeze({
     "footer.backToTop": "Torna su",
   }),
   en: Object.freeze({
+    "a11y.bpConverterDemo": "BPConverter interface demonstration",
+    "a11y.bpConverterFeatures": "BPConverter features",
+    "tools.bpConverterArea": "SMT assembly",
+    "tools.bpConverterTitle": "BPConverter",
+    "tools.bpConverterText": "From pick & place file to machine program: import coordinates in any format and a bill of materials (BOM), then generate a file compatible with Fuji Aimex II and III machines. Offsets for the X and Y axes and component rotation let you adapt placement to production requirements.",
+    "tools.bpConverterImport": "Pick & place + BOM",
+    "tools.bpConverterOutput": "Fuji Aimex II / III",
+    "tools.bpConverterOffsets": "X, Y and rotation offsets",
     "meta.title": "Glauco Silvestri — Processes, electronics, AI",
     "meta.description":
       "Glauco Silvestri: from electronics and PCB design to process engineering, digital transition, and AI-assisted projects.",

@@ -26,6 +26,9 @@ i modelli Ollama usati come coding agent, e
 [Markdown2PDF](https://markdown2pdf.glaucosilvestri.it/), per convertire documenti Markdown in PDF
 direttamente dal browser.
 
+Tra i tool professionali, **BPConverter** converte file pick & place e BOM per Fuji Aimex II e III,
+con offset X, Y e rotazione dei componenti. La demo è sfocata, senza audio e accelerata 4×.
+
 ### Anteprima locale
 
 Da PowerShell, nella cartella del progetto:
@@ -90,6 +93,9 @@ Featured personal projects include
 [LocalAgent Benchmark](https://localagentbenchmark.glaucosilvestri.it/), for comparing Ollama models
 used locally as coding agents, and [Markdown2PDF](https://markdown2pdf.glaucosilvestri.it/), for
 converting Markdown documents to PDF directly in the browser.
+
+Professional tools include **BPConverter**, which converts pick & place files and BOMs for Fuji
+Aimex II and III, with X, Y and component rotation offsets. The demo is blurred, silent and sped up 4×.
 
 ### Local preview
 

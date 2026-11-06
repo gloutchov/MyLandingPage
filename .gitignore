@@ -14,3 +14,7 @@ assets/apps/*.mov
 
 # Internal technical documentation is not part of the public site
 assets/tools/README-*.md
+
+# BPConverter source captures; publish only blurred derivatives
+assets/tools/bp-converter.mp4
+assets/tools/bp-converter.png
