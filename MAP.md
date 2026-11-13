@@ -16,6 +16,7 @@ myLandingpage/
 |   |   |-- planciacomandi.mp4  Derivato ottimizzato muto / Optimised silent derivative
 |   |   `-- planciacomandi.png  Poster fornito dal proprietario / Owner-supplied poster
 |   |-- icons/                 Icone delle app e logo personale / App icons and personal logo
+|   |   `-- planciacomandi_icon.png  Icona dell'app / App icon
 |   |-- tools/                 Demo professionali sfocate / Blurred professional demos
 |   |-- cad/                   Loghi degli strumenti / Tool logos
 |   |-- services/              Loghi dei servizi / Service logos

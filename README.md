@@ -27,8 +27,8 @@ i modelli Ollama usati come coding agent, e
 direttamente dal browser. In fondo alla lista si trova
 [Plancia Comandi](https://planciacomandi.glaucosilvestri.it/), che riunisce shell e CLI in una finestra
 desktop con fino a 12 sessioni, viste affiancate o a griglia e indicatori di stato. La scheda include
-una demo MP4 senza audio e l'immagine di anteprima fornita dal proprietario. Il riepilogo indica
-7 progetti personali online.
+una demo MP4 senza audio, l'icona dell'app e l'immagine di anteprima fornite dal proprietario.
+Il riepilogo indica 7 progetti personali online.
 
 Tra i tool professionali, **BPConverter** converte file pick & place e BOM per Fuji Aimex II e III,
 con offset X, Y e rotazione dei componenti. La demo è sfocata, senza audio e accelerata 4×.
@@ -101,8 +101,8 @@ used locally as coding agents, and [Markdown2PDF](https://markdown2pdf.glaucosil
 converting Markdown documents to PDF directly in the browser.
 [Plancia Comandi](https://planciacomandi.glaucosilvestri.it/) appears at the end of the list, bringing
 shells and CLIs into one desktop window with up to 12 sessions, side-by-side or grid views and
-status indicators. Its card includes a silent MP4 demo and the preview image supplied by the
-owner. The summary shows 7 personal projects online.
+status indicators. Its card includes a silent MP4 demo, the app icon and the preview image supplied
+by the owner. The summary shows 7 personal projects online.
 
 Professional tools include **BPConverter**, which converts pick & place files and BOMs for Fuji
 Aimex II and III, with X, Y and component rotation offsets. The demo is blurred, silent and sped up 4×.

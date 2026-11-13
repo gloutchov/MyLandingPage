@@ -34,16 +34,23 @@ esplicita prima di entrare nel piano esecutivo.
 
 ### Riepilogo e verifiche locali — 13 novembre 2026
 
-Scheda aggiunta dopo Markdown2PDF con link alla landing, testi IT/EN, poster fornito dal
+Scheda aggiunta dopo Markdown2PDF con link alla landing, testi IT/EN, icona dell'app e poster forniti dal
 proprietario e demo MP4 H.264 ottimizzata (960 × 642, 15 fps, 31 secondi, 182.662 byte, senza
 tracce audio). Il MOV originale è rimasto locale e ignorato. Il conteggio dei progetti è ora 7;
 aggiornati cache-busting, README bilingue, modello di sicurezza ed elenco documenti.
+
+La revisione del proprietario ha richiesto l'icona `assets/icons/planciacomandi_icon.png` al posto
+del monogramma PC. L'icona fornita è stata integrata con lo stesso componente delle altre app.
+Verificati caricamento e proporzioni a 1440, 980, 780, 580 e 375 px, nelle due lingue e nei due
+temi (20 combinazioni), con riduzione movimento: nessun errore o taglio ai contenuti. Ispezionate
+le anteprime desktop chiara e mobile scura. Il commit finale aggiornato richiede un nuovo
+controllo prima della pubblicazione.
 
 Verifiche completate con esito positivo:
 
 - `git diff --check` e `node --check` sui quattro file JavaScript;
 - 110 chiavi sincronizzate IT/EN, 125 riferimenti di traduzione risolti, ordine e conteggio app;
-- 42 percorsi locali esistenti; HTTP 200 per la pagina e le 42 risorse referenziate;
+- 43 percorsi locali esistenti, inclusa l'icona; HTTP 200 per la pagina e le 43 risorse referenziate;
 - decodifica completa del derivato MP4 e verifica dell'assenza di audio;
 - Chrome su macOS: 48 combinazioni di larghezza, lingua e tema, a 1440, 981, 980, 979, 781,
   780, 779, 581, 580, 579, 375 e 320 px, senza overflow della pagina o tagli ai contenuti
