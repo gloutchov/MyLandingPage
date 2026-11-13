@@ -860,7 +860,8 @@ a {
   transform: scale(1.25) translate(-12px, -6px);
 }
 
-.app-contami {
+.app-contami,
+.app-plancia {
   --card-accent: var(--lime);
   background: #f5f4df;
 }
@@ -1252,7 +1253,8 @@ html[data-theme="dark"] .tag-list li {
   border-color: rgba(104, 201, 172, 0.22);
 }
 
-html[data-theme="dark"] .app-contami {
+html[data-theme="dark"] .app-contami,
+html[data-theme="dark"] .app-plancia {
   background: #292d1c;
 }
 

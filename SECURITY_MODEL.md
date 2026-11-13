@@ -36,6 +36,11 @@ dei progetti causano una navigazione esterna soltanto dopo un'azione dell'utente
 Le catture originali di BPConverter (MP4 e PNG) sono escluse da Git. La pagina usa soltanto
 un video e un poster con sfocatura incorporata; il video è privo di audio.
 
+La scheda di Plancia Comandi usa il poster pubblico `assets/apps/planciacomandi.png` e una copia
+MP4 ottimizzata senza audio della registrazione fornita dal proprietario. Il MOV originale resta
+locale, escluso da Git tramite `assets/apps/*.mov`. Il link alla landing dell'app si apre solo
+su azione dell'utente; il portfolio non avvia shell o CLI.
+
 ### Limiti residui
 
 - Tutti i file presenti nella cronologia Git pubblica devono essere considerati accessibili anche
@@ -86,6 +91,11 @@ action.
 
 Original BPConverter captures (MP4 and PNG) are excluded from Git. The page uses only a video
 and poster with baked-in blur; the video contains no audio.
+
+The Plancia Comandi card uses the public `assets/apps/planciacomandi.png` poster and an optimised,
+silent MP4 copy of the recording supplied by the owner. The original MOV stays local and is
+excluded from Git by `assets/apps/*.mov`. The app's landing-page link opens only on user action;
+the portfolio does not launch shells or CLIs.
 
 ### Residual limitations
 

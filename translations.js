@@ -119,6 +119,10 @@ window.siteTranslations = Object.freeze({
       "Un editor con anteprima affiancata che trasforma testo Markdown in PDF direttamente dal browser, con titolo e numerazione automatica delle pagine.",
     "apps.openLocalAgent": "Apri LocalAgent Benchmark",
     "apps.openMarkdown": "Apri Markdown2PDF",
+    "apps.planciaName": "Plancia Comandi",
+    "apps.planciaType": "Terminali · Desktop · CLI",
+    "apps.planciaText":
+      "Shell e CLI in una sola finestra desktop: fino a 12 sessioni, viste affiancate o a griglia e indicatori di stato per seguire l'attività dei tuoi terminali.",
     "apps.visitLanding": "Visita la landing page",
     "apps.tryAssessment": "Prova l'assessment",
     "apps.openApp": "Apri la web app",
@@ -250,6 +254,10 @@ window.siteTranslations = Object.freeze({
       "A side-by-side editor and preview that turns Markdown text into a PDF directly in the browser, with automatic document titles and page numbering.",
     "apps.openLocalAgent": "Open LocalAgent Benchmark",
     "apps.openMarkdown": "Open Markdown2PDF",
+    "apps.planciaName": "Plancia Comandi",
+    "apps.planciaType": "Terminals · Desktop · CLI",
+    "apps.planciaText":
+      "Shells and CLIs in a single desktop window: up to 12 sessions, side-by-side or grid views and status indicators to keep track of your terminals' activity.",
     "apps.visitLanding": "Visit the landing page",
     "apps.tryAssessment": "Try the assessment",
     "apps.openApp": "Open the web app",

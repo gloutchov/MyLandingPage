@@ -17,6 +17,8 @@ esterni.
 - `assets/`: immagini e media effettivamente pubblicabili.
 - `CNAME`: configurazione del dominio personalizzato `glaucosilvestri.it`.
 - `README.md`, `SECURITY_MODEL.md`, `LICENSE`: documentazione e condizioni d'uso.
+- `PLAN.md`: milestone, criteri di accettazione, verifiche e stato della chiusura.
+- `MAP.md`: mappa del repository e distinzione tra media pubblici e catture locali.
 
 ## Regole di modifica
 

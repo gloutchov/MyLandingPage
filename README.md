@@ -24,7 +24,11 @@ Tra i progetti personali presentati sono inclusi
 [LocalAgent Benchmark](https://localagentbenchmark.glaucosilvestri.it/), per confrontare in locale
 i modelli Ollama usati come coding agent, e
 [Markdown2PDF](https://markdown2pdf.glaucosilvestri.it/), per convertire documenti Markdown in PDF
-direttamente dal browser.
+direttamente dal browser. In fondo alla lista si trova
+[Plancia Comandi](https://planciacomandi.glaucosilvestri.it/), che riunisce shell e CLI in una finestra
+desktop con fino a 12 sessioni, viste affiancate o a griglia e indicatori di stato. La scheda include
+una demo MP4 senza audio e l'immagine di anteprima fornita dal proprietario. Il riepilogo indica
+7 progetti personali online.
 
 Tra i tool professionali, **BPConverter** converte file pick & place e BOM per Fuji Aimex II e III,
 con offset X, Y e rotazione dei componenti. La demo è sfocata, senza audio e accelerata 4×.
@@ -49,6 +53,8 @@ Aprire quindi `http://localhost:8000`.
 - `assets/`: immagini, curriculum e media pubblicabili;
 - `CNAME`: configurazione del dominio personalizzato `glaucosilvestri.it`;
 - `AGENTS.md`: regole operative per manutentori e agenti;
+- [`PLAN.md`](PLAN.md): milestone e verifiche, con chiusura subordinata all'approvazione del commit;
+- [`MAP.md`](MAP.md): mappa dei sorgenti, dei media pubblici e dei file locali esclusi da Git;
 - `SECURITY_MODEL.md`: modello di sicurezza e privacy.
 
 ### Pubblicazione
@@ -93,6 +99,10 @@ Featured personal projects include
 [LocalAgent Benchmark](https://localagentbenchmark.glaucosilvestri.it/), for comparing Ollama models
 used locally as coding agents, and [Markdown2PDF](https://markdown2pdf.glaucosilvestri.it/), for
 converting Markdown documents to PDF directly in the browser.
+[Plancia Comandi](https://planciacomandi.glaucosilvestri.it/) appears at the end of the list, bringing
+shells and CLIs into one desktop window with up to 12 sessions, side-by-side or grid views and
+status indicators. Its card includes a silent MP4 demo and the preview image supplied by the
+owner. The summary shows 7 personal projects online.
 
 Professional tools include **BPConverter**, which converts pick & place files and BOMs for Fuji
 Aimex II and III, with X, Y and component rotation offsets. The demo is blurred, silent and sped up 4×.
@@ -117,6 +127,8 @@ Then open `http://localhost:8000`.
 - `assets/`: publishable images, résumé and media;
 - `CNAME`: custom-domain configuration for `glaucosilvestri.it`;
 - `AGENTS.md`: operational rules for maintainers and agents;
+- [`PLAN.md`](PLAN.md): milestones and validation, with closure subject to commit approval;
+- [`MAP.md`](MAP.md): map of sources, public media and local files excluded from Git;
 - `SECURITY_MODEL.md`: security and privacy model.
 
 ### Publishing
