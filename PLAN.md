@@ -5,14 +5,14 @@ Le milestone `M` si eseguono in ordine numerico e diventano `C`, conservando il 
 chiusura. Le attività future `P` hanno una numerazione indipendente e richiedono una decisione
 esplicita prima di entrare nel piano esecutivo.
 
-## M1 — Plancia Comandi tra le app personali
+## C1 — Plancia Comandi tra le app personali
 
 - **Obiettivo:** presentare Plancia Comandi come settima e ultima app personale, con descrizione
   bilingue, demo, immagine di anteprima e link alla sua landing page.
 - **Branch:** `milestone/M1-plancia-comandi`, da `main` verificato su `origin/main` al commit
   `87f1fc39cce4a6b784a1f400afc4f0921e2b69ca`.
-- **Checkpoint previsto:** `milestone/C1`, da creare su `main` solo dopo controllo personale e
-  approvazione esplicita del commit finale locale.
+- **Checkpoint:** tag annotato `milestone/C1`, pubblicato su `main` al commit approvato
+  `135081cb9ddc2fdf3e9ee574e8857ca908d03be0`.
 - **Versione:** nessun incremento o tag versione previsto per questo aggiornamento di contenuto
   statico; nessuna GitHub release.
 - **Fonte dei contenuti:** [landing di Plancia Comandi](https://planciacomandi.glaucosilvestri.it/),
@@ -29,8 +29,8 @@ esplicita prima di entrare nel piano esecutivo.
 - **Documentazione:** `README.md`, `SECURITY_MODEL.md`, `PLAN.md`, `MAP.md`; aggiornamento dell'elenco
   documenti in `AGENTS.md`. I manuali separati non sono presenti nel progetto: il README documenta
   questa modifica in entrambe le lingue.
-- **Stato:** implementazione e verifiche locali completate; branch pronto per il controllo
-  personale del proprietario. Pubblicazione e chiusura ancora da autorizzare.
+- **Stato:** completata. Commit approvato, merge, checkpoint, push, pubblicazione GitHub Pages
+  e rimozione del branch M1 verificati il 13 novembre 2026.
 
 ### Riepilogo e verifiche locali — 13 novembre 2026
 
@@ -43,8 +43,8 @@ La revisione del proprietario ha richiesto l'icona `assets/icons/planciacomandi_
 del monogramma PC. L'icona fornita è stata integrata con lo stesso componente delle altre app.
 Verificati caricamento e proporzioni a 1440, 980, 780, 580 e 375 px, nelle due lingue e nei due
 temi (20 combinazioni), con riduzione movimento: nessun errore o taglio ai contenuti. Ispezionate
-le anteprime desktop chiara e mobile scura. Il commit finale aggiornato richiede un nuovo
-controllo prima della pubblicazione.
+le anteprime desktop chiara e mobile scura. Il proprietario ha approvato il commit finale
+`135081cb9ddc2fdf3e9ee574e8857ca908d03be0` prima di merge, tag, push e rimozione del branch.
 
 Verifiche completate con esito positivo:
 
@@ -63,8 +63,24 @@ Verifiche completate con esito positivo:
 
 **Limiti:** verifica browser eseguita in Chrome con viewport simulate, senza dispositivi fisici
 o prove Safari/Firefox. Non esistono suite automatica, build o workflow CI nel checkout;
-nessuno aggiunto o avviato. GitHub Pages non è ancora aggiornato: la verifica online del
-portfolio e il checkpoint `milestone/C1` seguiranno soltanto l'approvazione del commit.
+nessuno aggiunto. L'unico run successivo al push è il deploy GitHub Pages necessario alla
+pubblicazione; non sono stati avviati o rieseguiti workflow manualmente.
+
+### Pubblicazione e chiusura — 13 novembre 2026
+
+- I due commit locali della milestone erano già presenti sul branch dedicato; nessuna modifica
+  al commit approvato prima della pubblicazione.
+- Merge fast-forward su `main`; `main` locale, `origin/main` e il tag annotato `milestone/C1`
+  verificati sul commit `135081cb9ddc2fdf3e9ee574e8857ca908d03be0`.
+- Push atomico di `main` e checkpoint; nessun tag versione o GitHub release, come previsto.
+- [Deploy GitHub Pages](https://github.com/gloutchov/MyLandingPage/actions/runs/43496599499)
+  completato con esito positivo sul commit approvato.
+- [Sito pubblico](https://glaucosilvestri.it/) verificato: HTTP 200 e SHA-256 identici alle copie
+  locali per HTML, CSS, dizionari, poster PNG, demo MP4 e icona di Plancia Comandi.
+- Branch locale `milestone/M1-plancia-comandi` eliminato dopo le verifiche; il branch non era
+  stato pubblicato sul remoto e non aveva PR aperte. Preservati gli altri branch locali.
+- MOV originale e media forniti dal proprietario preservati; checksum locali invariati rispetto
+  al controllo precedente al merge.
 
 ### Checklist di chiusura
 
@@ -74,11 +90,11 @@ portfolio e il checkpoint `milestone/C1` seguiranno soltanto l'approvazione del 
 - [x] Verifiche statiche e smoke HTTP eseguiti.
 - [x] Layout, lingue, temi, menu e riduzione movimento verificati nel browser.
 - [x] Commit locale sul branch dedicato congelato per la consegna di hash, diff, verifiche e limiti.
-- [ ] Controllo personale e approvazione esplicita del proprietario sul commit indicato.
-- [ ] Merge su `main`, checkpoint `milestone/C1`, push e verifica dei riferimenti remoti.
-- [ ] Pubblicazione GitHub Pages verificata, senza avvii manuali o riesecuzioni CI superflui.
-- [ ] Voce rinominata `C1` con riepilogo, verifiche e limiti finali.
-- [ ] Branch eliminato solo dopo autorizzazione e verifiche di chiusura.
+- [x] Controllo personale e approvazione esplicita del proprietario sul commit indicato.
+- [x] Merge su `main`, checkpoint `milestone/C1`, push e verifica dei riferimenti remoti.
+- [x] Pubblicazione GitHub Pages verificata, senza avvii manuali o riesecuzioni CI superflui.
+- [x] Voce rinominata `C1` con riepilogo, verifiche e limiti finali.
+- [x] Branch eliminato solo dopo autorizzazione e verifiche di chiusura.
 
 Non sono previsti nuovi workflow: le verifiche locali sono proporzionate alla modifica. Nessun
 merge, tag, push o eliminazione del branch precede l'approvazione esplicita del commit esaminato.
